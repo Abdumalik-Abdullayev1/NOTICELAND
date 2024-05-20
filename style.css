@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+@font-face {
+    font-family: "Tenor Sans";
+    src: url("./fonts/Tenor_Sans/TenorSans-Regular.ttf");
+}
+header{
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    padding: 20px 120px;
+    font-family: sans-serif;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+a{
+    color: black;
+}
+.container{
+    padding: 30px 120px;
+}
+.img-desc{
+    width: 450px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 15px;
+}
+.img-desc h1{
+    font-family: Tenor Sans;
+    font-size: 40px;
+}
+.section-img{
+    display: flex;
+    gap: 50px;
+}
+
+.noticeland-recommend{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.noticeland-rec img{
+    width: 400px;
+}
+.img-description{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Tenor Sans;
+    padding-bottom: 50px;
+}
+
+.recommends{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 15px;
+}
+.images img{
+    width: 300px;
+}
+.rec-description{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Tenor Sans;
+    padding-bottom: 30px;
+}
+section button{
+    width: 200px;
+    height: 55px;
+    margin: 150px 0px 10px 550px;
+    cursor: pointer;
+}
+
+
+.featured-posts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding-top: 20px;
+}
+.featured-posts-desc{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: Tenor Sans;
+}
+footer{
+    background-color: rgba(20, 20, 20, 1);
+}
+.headlights{
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    color: white;
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    padding: 100px 0px 50px 0px;
+    font-family: sans-serif;
+}
+footer p{
+    color: rgba(102, 102, 102, 1);
+    font-family: sans-serif;
+    font-size: 12px;
+}
+footer p:nth-child(1){
+    margin-right: 165px;
+}
+.categories{
+    display: flex;
+    color: white;
+    gap: 150px;
+    font-size: 11px;
+    align-items: center;
+    font-family: sans-serif;
+}
+.category-items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+.email-enteranse{
+    display: flex;
+}
+input{
+    width: 200px;
+    height: 50px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+footer button{
+    width: 75px;
+    height: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+    border: none;
+    cursor: pointer;
+}
+
+.footer-items{
+    display: flex;
+}
+.footer-items h3{
+    color: white;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
